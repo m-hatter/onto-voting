@@ -5,9 +5,7 @@
 The list of required Python packages is provided in `requirements.txt`. It is recommended to use venv: create 
 an environment and install packages by running:
 
-    ```
-    pip install -r requirements.txt
-    ```
+    $ pip install -r requirements.txt
 
 ## What's inside
 
