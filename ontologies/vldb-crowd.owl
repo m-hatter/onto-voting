@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://cais.iias.spb.su/ontology/generated/vldb-crowd/"
+         xmlns="http://cais.iias.spb.su/ontology/generated/vldb-crowd/">
+
+<owl:Ontology rdf:about="http://cais.iias.spb.su/ontology/generated/vldb-crowd"/>
+
+<owl:ObjectProperty rdf:about="hasTopic">
+  <rdfs:domain rdf:resource="Item"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="hasPrimaryTopic">
+  <rdfs:subPropertyOf rdf:resource="hasTopic"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="hasP1">
+  <rdfs:domain rdf:resource="Item"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="hasP11">
+  <rdfs:subPropertyOf rdf:resource="hasP1"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="hasP12">
+  <rdfs:subPropertyOf rdf:resource="hasP1"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="H1C1">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C11">
+  <rdfs:subClassOf rdf:resource="H1C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C12">
+  <rdfs:subClassOf rdf:resource="H1C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C13">
+  <rdfs:subClassOf rdf:resource="H1C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C2">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C21">
+  <rdfs:subClassOf rdf:resource="H1C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C22">
+  <rdfs:subClassOf rdf:resource="H1C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C23">
+  <rdfs:subClassOf rdf:resource="H1C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C3">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C31">
+  <rdfs:subClassOf rdf:resource="H1C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C32">
+  <rdfs:subClassOf rdf:resource="H1C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="H1C33">
+  <rdfs:subClassOf rdf:resource="H1C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C1">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C11">
+  <rdfs:subClassOf rdf:resource="H2C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C12">
+  <rdfs:subClassOf rdf:resource="H2C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C13">
+  <rdfs:subClassOf rdf:resource="H2C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C2">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C21">
+  <rdfs:subClassOf rdf:resource="H2C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C22">
+  <rdfs:subClassOf rdf:resource="H2C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C23">
+  <rdfs:subClassOf rdf:resource="H2C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C3">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C31">
+  <rdfs:subClassOf rdf:resource="H2C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C32">
+  <rdfs:subClassOf rdf:resource="H2C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="H2C33">
+  <rdfs:subClassOf rdf:resource="H2C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="S0">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H1C2"/>
+</owl:Class>
+
+<owl:Class rdf:about="S1">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C22"/>
+</owl:Class>
+
+<owl:Class rdf:about="S2">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H1C12"/>
+</owl:Class>
+
+<owl:Class rdf:about="S3">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H1C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="S4">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H1C13"/>
+</owl:Class>
+
+<owl:Class rdf:about="S5">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C13"/>
+</owl:Class>
+
+<owl:Class rdf:about="S6">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C12"/>
+</owl:Class>
+
+<owl:Class rdf:about="S7">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C13"/>
+</owl:Class>
+
+<owl:Class rdf:about="S8">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C3"/>
+</owl:Class>
+
+<owl:Class rdf:about="S9">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="H2C1"/>
+</owl:Class>
+
+<owl:Class rdf:about="Item">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="H1C1"/>
+    <rdf:Description rdf:about="H1C2"/>
+    <rdf:Description rdf:about="H1C3"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="H1C31"/>
+    <rdf:Description rdf:about="H1C32"/>
+    <rdf:Description rdf:about="H1C33"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="H1C21"/>
+    <rdf:Description rdf:about="H1C22"/>
+    <rdf:Description rdf:about="H1C23"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="H1C11"/>
+    <rdf:Description rdf:about="H1C12"/>
+    <rdf:Description rdf:about="H1C13"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>
